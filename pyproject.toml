@@ -4,7 +4,21 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "brainflow>=5.21.0",
+    "edfio>=0.4.13",
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.9",
+    "mne>=1.12.1",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "pyserial>=3.5",
+    "pywavelets>=1.8.0",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "setuptools<82",
+]
 
 [dependency-groups]
 dev = [
